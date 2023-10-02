@@ -5,21 +5,21 @@ from phew.server import serve_file
 @server.route("/", methods=["GET", "POST"])
 def index(request):
     if request.method == "GET":
-        return serve_file("index.html")
+        return serve_file("templates/index.html")
     if request.method == "POST":
         message = request.form.get("message")
         logging.debug(f"posted message: {message}")
 
-        return serve_file("posted.html")
+        return serve_file("templates/posted.html")
 
 
-@server.route("/styles.css", methods=["GET"])
+@server.route("/global.css", methods=["GET"])
 def styles(_):
-    return serve_file("styles.css")
+    return serve_file("styles/global.css")
 
 
 @server.catchall()
-def catchall(_):
+def catchall():
     return "Not found", 404
 
 
