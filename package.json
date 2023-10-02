@@ -1,0 +1,15 @@
+{
+  "name": "pico-remote-message-display",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i ./src/styles/global.css -o ./dist/styles/global.css --watch",
+    "build": "tailwindcss -i ./src/styles/global.css -o ./dist/styles/global.css --minify"
+  },
+  "keywords": [],
+  "author": "rbarbazz",
+  "license": "ISC"
+}
