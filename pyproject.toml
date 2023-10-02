@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pico-remote-message-display"
+version = "0.1.0"
+description = ""
+authors = ["rbarbazz <42906704+rbarbazz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyserial = "^3.5"
+micropython-rp2-pico-w-stubs = "^1.20.0.post2"
+micropython-phew = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

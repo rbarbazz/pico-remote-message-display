@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Remote Message Display</title>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-800">
+    <div
+      class="max-w-md mx-auto sm:mt-10 sm:bg-white sm:dark:bg-gray-700 p-6 sm:rounded-md sm:shadow-md"
+    >
+      <form action="/" method="post">
+        <div class="mb-4">
+          <label
+            for="message"
+            class="block text-gray-700 dark:text-white font-bold mb-2"
+          >
+            Enter your message:
+          </label>
+          <input
+            type="text"
+            id="message"
+            name="message"
+            class="border border-gray-400 p-2 w-full rounded-md dark:bg-gray-600 dark:text-white"
+            maxlength="100"
+          />
+        </div>
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md dark:bg-blue-700 dark:hover:bg-blue-900"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

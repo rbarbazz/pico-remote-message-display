@@ -1,0 +1,3 @@
+[submodule "pimoroni-pico-stubs"]
+	path = pimoroni-pico-stubs
+	url = git@github.com:pimoroni/pimoroni-pico-stubs.git

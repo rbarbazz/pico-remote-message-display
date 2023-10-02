@@ -1,0 +1,6 @@
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "micropico.syncFolder": "",
+  "python.analysis.extraPaths": ["pimoroni-pico-stubs"]
+}
