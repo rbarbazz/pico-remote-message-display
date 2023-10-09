@@ -14,5 +14,5 @@ async def process_message(message: str):
         display.write_text(message)
         await asyncio.sleep(5)
 
-        display.clear()
+        display.clear_text()
         display.clear_led()

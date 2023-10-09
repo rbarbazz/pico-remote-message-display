@@ -22,11 +22,10 @@ class Display:
         self.led = RGBLED(6, 7, 8)
         self.clear_led()
 
-    def clear(self):
+    def clear_text(self):
         self.display.set_pen(self.black_pen)
         self.display.clear()
         self.display.update()
-        self.clear_led()
 
     def clear_led(self):
         self.led.set_rgb(*RGB_BLACK)
