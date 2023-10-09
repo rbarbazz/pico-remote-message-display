@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/templates/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        phosphorGreen: '#00FF00',
+      },
+    },
   },
   plugins: [],
 }
