@@ -10,6 +10,5 @@
     "build": "tailwindcss -i ./src/styles/global.css -o ./dist/styles/global.css --minify"
   },
   "keywords": [],
-  "author": "rbarbazz",
-  "license": "ISC"
+  "author": "rbarbazz"
 }
