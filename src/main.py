@@ -1,8 +1,10 @@
+import asyncio
+
 from phew import server, access_point, logging, dns
 from phew.server import serve_file
 from phew.template import render_template
+
 from tasks import process_message
-import asyncio
 
 AP_DOMAIN = "pico.local"
 
